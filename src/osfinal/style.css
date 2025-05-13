@@ -1,0 +1,113 @@
+
+/* Main Form Styles */
+.input-form {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-padding: 10;
+}
+
+.input-grid {
+    -fx-padding: 0 0 10 0;
+}
+
+/* Main application styles */
+.root {
+    -fx-background-color: #f5f5f5;
+}
+
+/* Panel styling */
+.panel {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-padding: 15;
+}
+
+/* Toggle Button Styles */
+.mode-toggle{
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 11px;
+    -fx-padding: 8 16;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-width: 0.5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 1);
+    -fx-cursor: hand;
+}
+
+.mode-toggle:selected {
+    -fx-background-color: #4a7b9d;
+    -fx-text-fill: white;
+    -fx-border-color: #2c4a5d;
+}
+
+.mode-button:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.mode-button:selected:hover {
+    -fx-background-color: #3a6b8d;
+}
+
+.mode-toggle:armed {
+    -fx-background-insets: 1;
+}
+
+
+/* Button styles */
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 5 15 5 15;
+}
+
+.button-add {
+    -fx-background-color: #4CAF50;
+}
+
+.button-add:hover {
+    -fx-background-color: #419c45;
+}
+
+.button-run {
+    -fx-background-color: #2196F3;
+}
+
+.button-run:hover {
+    -fx-background-color: #2178f3;
+}
+
+.button-clear {
+    -fx-background-color: #f44336;
+}
+
+.button-clear:hover {
+    -fx-background-color: #cf2d2d;
+}
+
+/* Gantt chart styles */
+.chart-bar {
+    -fx-opacity: 0;
+}
+
+.chart-bar.bar-idle {
+    -fx-bar-fill: #999999;
+}
+
+.bar-idle {
+    -fx-bar-fill: gray;
+}
+
+.bar-job {
+    -fx-bar-fill: gray;
+}
+
+/* Table styles */
+.table-view {
+    -fx-font-size: 12px;
+}
+
+.table-cell {
+    -fx-alignment: CENTER;
+}
